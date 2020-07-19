@@ -1,0 +1,4 @@
+{
+    "entry": "almostontop.plugin.zsh",
+    "description": "It clears previous command output every time before new command executed in shell. Inspired by alwaysontop plugin for bash."
+}

@@ -1,0 +1,4 @@
+{
+    "entry": "abbrev-alias.plugin.zsh",
+    "description": "This zsh plugin provides functionality similar to Vim's abbreviation expansion."
+}

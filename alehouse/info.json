@@ -1,0 +1,4 @@
+{
+    "entry": "alehouse.plugin.zsh",
+    "description": "Contains short aliases for Homebrew commands."
+}

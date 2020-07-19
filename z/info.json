@@ -1,0 +1,4 @@
+{
+    "entry": "zsh-z.plugin.zsh",
+    "description": "Jump quickly to directories that you have visited \"frecently.\" A native ZSH port of z.sh."
+}
