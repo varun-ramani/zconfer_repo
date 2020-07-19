@@ -1,21 +1,15 @@
 import os, json
 
-def create_module_list():
-    modules = os.listdir('.')
-    for entry in ['generate.py', '.git', 'repo.json', 'README.md']:
-        if entry in modules:
-            modules.remove(entry)
+repo = {
+    'plugins': {},
+    'themes': {}
+}
 
-    return modules
+for plugin in os.listdir('plugins'):
+    with open(f'plugins/{plugin}/info.json', 'r') as jsonfile:
+        repo['plugins'][plugin] = json.loads(jsonfile.read())
 
-repo = {}
-
-for module in create_module_list():
-    with open(f'{module}/info.json', 'r') as jsonfile:
-        repo[module] = json.loads(jsonfile.read())
-
-repo = {key: repo[key] for key in sorted(repo)}
-
+repo['plugins'] = {key: repo['plugins'][key] for key in sorted(repo['plugins'])}
 
 with open('repo.json', 'w+') as repofile:
     repofile.write(json.dumps(repo, indent=4))

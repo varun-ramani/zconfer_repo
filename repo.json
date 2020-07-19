@@ -1,18 +1,21 @@
 {
-    "abbrev-alias": {
-        "entry": "abbrev-alias.plugin.zsh",
-        "description": "This zsh plugin provides functionality similar to Vim's abbreviation expansion."
+    "plugins": {
+        "abbrev-alias": {
+            "entry": "abbrev-alias.plugin.zsh",
+            "description": "This zsh plugin provides functionality similar to Vim's abbreviation expansion."
+        },
+        "alehouse": {
+            "entry": "alehouse.plugin.zsh",
+            "description": "Contains short aliases for Homebrew commands."
+        },
+        "almostontop": {
+            "entry": "almostontop.plugin.zsh",
+            "description": "It clears previous command output every time before new command executed in shell. Inspired by alwaysontop plugin for bash."
+        },
+        "z": {
+            "entry": "zsh-z.plugin.zsh",
+            "description": "Jump quickly to directories that you have visited \"frecently.\" A native ZSH port of z.sh."
+        }
     },
-    "alehouse": {
-        "entry": "alehouse.plugin.zsh",
-        "description": "Contains short aliases for Homebrew commands."
-    },
-    "almostontop": {
-        "entry": "almostontop.plugin.zsh",
-        "description": "It clears previous command output every time before new command executed in shell. Inspired by alwaysontop plugin for bash."
-    },
-    "z": {
-        "entry": "zsh-z.plugin.zsh",
-        "description": "Jump quickly to directories that you have visited \"frecently.\" A native ZSH port of z.sh."
-    }
+    "themes": {}
 }
