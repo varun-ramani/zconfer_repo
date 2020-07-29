@@ -18,6 +18,14 @@
         }
     },
     "themes": {
+        "absolute": {
+            "entry": "absolute.zsh-theme",
+            "description": "An extremely clean ZSH theme with git branch, git status, battery percentage, NVM node version, and last command exit code."
+        },
+        "af-magic": {
+            "entry": "af-magic.zsh-theme",
+            "description": "A clean ZSH theme with git, mercurial, and virtualenv support."
+        },
         "dracula": {
             "entry": "dracula.zsh-theme",
             "description": "Dark theme for ZSH and 109+ apps"
