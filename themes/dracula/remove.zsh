@@ -1,1 +1,1 @@
-rm -rf $ZSH_THEMES_DIR/dracula
+rm -rf $ZCONFER_THEMES_DIR/dracula

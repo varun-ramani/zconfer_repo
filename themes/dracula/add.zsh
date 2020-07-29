@@ -1,1 +1,1 @@
-git clone https://github.com/dracula/zsh.git $ZSH_THEMES_DIR/dracula
+git clone https://github.com/dracula/zsh.git $ZCONFER_THEMES_DIR/dracula
