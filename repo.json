@@ -17,5 +17,10 @@
             "description": "Jump quickly to directories that you have visited \"frecently.\" A native ZSH port of z.sh."
         }
     },
-    "themes": {}
+    "themes": {
+        "dracula": {
+            "entry": "dracula.zsh-theme",
+            "description": "Dark theme for ZSH and 109+ apps"
+        }
+    }
 }

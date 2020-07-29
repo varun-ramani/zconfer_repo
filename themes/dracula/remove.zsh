@@ -1,0 +1,1 @@
+rm -rf $ZSH_THEMES_DIR/dracula
