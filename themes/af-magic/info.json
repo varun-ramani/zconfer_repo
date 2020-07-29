@@ -1,0 +1,4 @@
+{
+    "entry": "af-magic.zsh-theme",
+    "description": "A clean ZSH theme with git, mercurial, and virtualenv support."
+}

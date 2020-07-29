@@ -1,0 +1,4 @@
+{
+    "entry": "absolute.zsh-theme",
+    "description": "An extremely clean ZSH theme with git branch, git status, battery percentage, NVM node version, and last command exit code."
+}
