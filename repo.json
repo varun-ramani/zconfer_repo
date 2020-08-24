@@ -26,6 +26,10 @@
             "entry": "af-magic.zsh-theme",
             "description": "A clean ZSH theme with git, mercurial, and virtualenv support."
         },
+        "agnoster": {
+            "entry": "agnoster.zsh-theme",
+            "description": "A cool ZSH theme with powerline glyphs."
+        },
         "dracula": {
             "entry": "dracula.zsh-theme",
             "description": "Dark theme for ZSH and 109+ apps"
