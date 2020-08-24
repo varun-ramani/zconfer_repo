@@ -1,0 +1,1 @@
+rm -rf $ZCONFER_THEMES_DIR/agnoster

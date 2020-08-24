@@ -1,0 +1,1 @@
+git clone https://github.com/agnoster/agnoster-zsh-theme.git $ZCONFER_THEMES_DIR/agnoster
