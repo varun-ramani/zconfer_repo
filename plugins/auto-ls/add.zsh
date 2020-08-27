@@ -1,0 +1,1 @@
+git clone https://github.com/desyncr/auto-ls $ZCONFER_PLUGINS_DIR/auto-ls
