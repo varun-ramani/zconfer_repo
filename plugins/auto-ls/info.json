@@ -1,4 +1,4 @@
 {
     "entry": "auto-ls.plugin.zsh",
-    "info": "Automatically ls when cding to a new directory."
+    "description": "Automatically ls when cding to a new directory."
 }

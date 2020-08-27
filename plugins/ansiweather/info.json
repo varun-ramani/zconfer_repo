@@ -1,4 +1,4 @@
 {
     "entry": "ansiweather.plugin.zsh",
-    "info": "Shell script for displaying the current weather conditions in your terminal, with support for ANSI colors and Unicode symbols."
+    "description": "Shell script for displaying the current weather conditions in your terminal, with support for ANSI colors and Unicode symbols."
 }

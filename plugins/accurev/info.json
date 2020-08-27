@@ -1,4 +1,4 @@
 {
     "entry": "accurev.sh",
-    "info": "ZSH plugin for accurev"
+    "description": "ZSH plugin for accurev"
 }
