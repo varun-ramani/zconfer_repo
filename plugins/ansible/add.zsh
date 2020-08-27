@@ -1,0 +1,1 @@
+git clone https://github.com/sparsick/ansible-zsh $ZCONFER_PLUGINS_DIR/ansible

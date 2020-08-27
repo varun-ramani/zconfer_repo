@@ -1,0 +1,4 @@
+{
+    "entry": "git-rebase.zsh",
+    "info": "ZSH script to aid with Git rebasing (also works with ZConfer)."
+}

@@ -1,0 +1,1 @@
+rm -rf $ZCONFER_PLUGINS_DIR/antigen-git-rebase

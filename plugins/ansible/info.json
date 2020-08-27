@@ -1,0 +1,4 @@
+{
+    "entry": "ansible.plugin.zsh",
+    "info": "Provides aliases for ansible"
+}

@@ -1,0 +1,1 @@
+git clone https://github.com/dalefukami/accurev-zsh $ZCONFER_PLUGINS_DIR/accurev
