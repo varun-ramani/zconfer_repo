@@ -1,0 +1,4 @@
+{
+    "entry": "zsh-abbr.plugin.zsh",
+    "description": "The zsh manager for auto-expanding abbreviations - text that when written in a terminal is replaced with other (typically longer) text. Inspired by fish shell."
+}

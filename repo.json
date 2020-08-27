@@ -1,5 +1,13 @@
 {
     "plugins": {
+        "256color": {
+            "entry": "zsh-256color.plugin.zsh",
+            "description": "This ZSH plugin enhances the terminal environment with 256 colors; the result is a multicolor terminal, if available."
+        },
+        "abbr": {
+            "entry": "zsh-abbr.plugin.zsh",
+            "description": "The zsh manager for auto-expanding abbreviations - text that when written in a terminal is replaced with other (typically longer) text. Inspired by fish shell."
+        },
         "abbrev-alias": {
             "entry": "abbrev-alias.plugin.zsh",
             "description": "This zsh plugin provides functionality similar to Vim's abbreviation expansion."

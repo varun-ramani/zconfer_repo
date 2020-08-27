@@ -6,12 +6,14 @@ repo = {
 }
 
 for plugin in os.listdir('plugins'):
+    print(f"Generating repo entry for plugin {plugin}")
     with open(f'plugins/{plugin}/info.json', 'r') as jsonfile:
         repo['plugins'][plugin] = json.loads(jsonfile.read())
 
 repo['plugins'] = {key: repo['plugins'][key] for key in sorted(repo['plugins'])}
 
 for theme in os.listdir('themes'):
+    print(f"Generating repo entry for theme {theme}")
     with open(f'themes/{theme}/info.json', 'r') as jsonfile:
         repo['themes'][theme] = json.loads(jsonfile.read())
 

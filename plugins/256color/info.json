@@ -1,0 +1,4 @@
+{
+    "entry": "zsh-256color.plugin.zsh",
+    "description": "This ZSH plugin enhances the terminal environment with 256 colors; the result is a multicolor terminal, if available."
+}
