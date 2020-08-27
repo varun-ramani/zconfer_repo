@@ -28,9 +28,21 @@
             "entry": "ansible.plugin.zsh",
             "info": "Provides aliases for ansible"
         },
+        "ansiweather": {
+            "entry": "ansiweather.plugin.zsh",
+            "info": "Shell script for displaying the current weather conditions in your terminal, with support for ANSI colors and Unicode symbols."
+        },
         "antigen-git-rebase": {
             "entry": "git-rebase.zsh",
             "info": "ZSH script to aid with Git rebasing (also works with ZConfer)."
+        },
+        "appup": {
+            "entry": "appup.plugin.zsh",
+            "info": "Adds start, restart, stop, up, and down commands when it detects a docker-compose or Vagrant file in the current directory. Saves you typing docker-compose or vagrant every time or aliasing them."
+        },
+        "async": {
+            "entry": "async.plugin.zsh",
+            "info": "Can run multiple asynchronous jobs, enforce unique jobs (multiple instances of the same job will not run), flush all currently running jobs and create multiple workers (each with their own jobs). For each worker you can register a callback-function through which you will be notified about the job results (job name, return code, output and execution time)."
         },
         "z": {
             "entry": "zsh-z.plugin.zsh",

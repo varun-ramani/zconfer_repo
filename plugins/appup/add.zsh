@@ -1,0 +1,1 @@
+git clone https://github.com/Cloudstek/zsh-plugin-appup $ZCONFER_PLUGINS_DIR/-appup

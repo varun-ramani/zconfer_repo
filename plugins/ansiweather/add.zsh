@@ -1,0 +1,1 @@
+git clone https://github.com/fcambus/ansiweather $ZCONFER_PLUGINS_DIR/ansiweather
